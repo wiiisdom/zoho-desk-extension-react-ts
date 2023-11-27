@@ -1,6 +1,6 @@
 # Zoho Desk Extension Template: React + Typescript
 
-This example repository is showing you an example of a [Zoho Desk Extension](https://www.zoho.com/desk/extensions/guide/introduction.html) with [React 18](https://react.dev) and [TypeScript 5](https://www.typescriptlang.org).
+This repository is showing you an example of a [Zoho Desk Extension](https://www.zoho.com/desk/extensions/guide/introduction.html) with [React 18](https://react.dev) and [TypeScript 5](https://www.typescriptlang.org).
 
 ## Why?
 
@@ -30,7 +30,7 @@ zet pack
 - This extension is relying on `ts-loader` in the webpack configuration to read the `tsx`/`ts` files.
 - The `ZOHODESK` object type is declared in `globals.d.ts`. Extend it if you need!
 - components are located in `src/components`, see the basic `App.tsx`
-- a basic test is build in `test/components`, it is relying `vitest`.
+- a basic test is build in `test/components`, it is relying on `vitest`.
 
 ## License
 
